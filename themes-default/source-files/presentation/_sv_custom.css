@@ -1,0 +1,31 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+.sv-presentation-title {
+  text-align: center;
+}
+
+.sv-presentation-description {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.sv-presentation-description  p {
+  font-size: 18px;
+}
+
+.sv-presentation-caption-text {
+  background: rgba(255,255,255,.9);
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+}

@@ -1,0 +1,55 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.filter-set {
+  z-index: 1;
+  top: 25px;
+}
+
+.filter-set li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.current-filter {
+  border-bottom: 2px solid black;
+}
+
+.sv-feed-info {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.sv-feed-item {
+  float: left;
+}
+
+.sv-feed-item-photo img {
+  background-color: #efefef;
+}
+
+.sv-feed-item-photo img.lazy-loaded {
+  background-color: transparent;
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+
+  .filter-set {
+    position: fixed;
+    top: 5px;
+    right: 75px;
+  }
+
+}

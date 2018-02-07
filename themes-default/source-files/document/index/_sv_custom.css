@@ -1,0 +1,34 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+body {
+  background: white;
+}
+
+.sv-document-nav-title,
+.sv-document-nav-items {
+  background: white;
+}
+
+.sv-document-article {
+  background: white;
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+  body {
+    background: white;
+  }
+
+  .sv-document-nav-title,
+  .sv-document-nav-items {
+    background: transparent;
+  }
+}

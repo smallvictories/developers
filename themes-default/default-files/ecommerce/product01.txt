@@ -1,0 +1,1 @@
+Add a caption by creating a text file with the same name as an image (ex product01.txt)

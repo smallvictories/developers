@@ -1,0 +1,5 @@
+title: Old fashioned lazy susan
+theme: presentation
+subdomain: old-fashioned-lazy-susan
+badge: show
+description: This is your site description which can be edited in the _sv_settings.txt file, another Small Victory.

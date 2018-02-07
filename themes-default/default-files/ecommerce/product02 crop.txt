@@ -1,0 +1,1 @@
+Add crop to your image filename (ex. product01 crop.jpg) to render an image full screen

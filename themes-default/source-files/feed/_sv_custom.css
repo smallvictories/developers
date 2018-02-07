@@ -1,0 +1,29 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+.sv-feed-info {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.sv-feed-item {
+  float: left;
+}
+
+.sv-feed-item-photo img {
+  background-color: #efefef;
+}
+
+.sv-feed-item-photo img.lazy-loaded {
+  background-color: transparent;
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+}

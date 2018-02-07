@@ -1,0 +1,17 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+.sv-homepage {
+  background-image: url('/background.jpg');
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+}

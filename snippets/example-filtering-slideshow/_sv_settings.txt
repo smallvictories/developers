@@ -1,0 +1,4 @@
+title: Filtering – Slideshow
+theme: slideshow
+domain: example-filtering.smvi.co
+description: This is an example of filtering for the Slideshow theme. Another Small Victory.

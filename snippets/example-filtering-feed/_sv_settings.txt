@@ -1,0 +1,4 @@
+title: Filtering – Feed
+theme: feed
+domain: example-filtering-2.smvi.co
+description: This is an example of filtering for the Feed theme. Another Small Victory.

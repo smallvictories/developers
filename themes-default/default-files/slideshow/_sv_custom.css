@@ -1,0 +1,45 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+.sv-slideshow-grid-item {
+  padding: 5px;
+  width: 50%;
+}
+
+.sv-slideshow-grid-item-photo img {
+  background-color: #efefef;
+}
+
+.sv-slideshow-grid-item-photo img.lazy-loaded {
+  background-color: transparent;
+}
+
+.sv-slideshow-title {
+  max-width: 650px;
+}
+
+.sv-slideshow-description {
+  max-width: 650px;
+  text-align: justify;
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+  .sv-slideshow-grid-item {
+    padding: 10px;
+    width: 33.33333333333%;
+  }
+}
+
+@media screen and (min-width: 1300px){
+  .sv-slideshow-grid-item {
+    width: 25%;
+  }
+}

@@ -1,0 +1,6 @@
+title: Fuzzy barracuda
+theme: campaign
+subdomain: fuzzy-barracuda
+badge: show
+mailchimp: http://url.mailchimp.com/example/replace/me
+description: This is your site description which can be edited in the _sv_settings.txt file, another Small Victory.

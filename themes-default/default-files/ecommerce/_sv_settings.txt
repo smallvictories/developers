@@ -1,0 +1,10 @@
+title: Parrot line
+theme: ecommerce
+subdomain: parrot-line
+badge: show
+company: Acme Co.
+stripe_pk: add_stripe_p_key
+stripe_sk: add_stripe_s_key
+variants: Small, Medium, Large
+price: $19.99
+description: This is where you can describe your product. It can be edited in the _sv_settings.txt file and accepts HTML and markdown, another Small Victory.

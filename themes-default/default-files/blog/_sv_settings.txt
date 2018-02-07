@@ -1,0 +1,6 @@
+title: Sandwich bread
+theme: blog
+subdomain: sandwich-bread
+sort: name z-a
+badge: show
+description: This is your site description which can be edited in the _sv_settings.txt file, another Small Victory.

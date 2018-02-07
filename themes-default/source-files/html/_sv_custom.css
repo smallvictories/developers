@@ -1,0 +1,26 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+body {
+  background: white;
+}
+
+/*
+  Responsive images
+*/
+img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+/*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+}

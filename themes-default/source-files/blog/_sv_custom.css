@@ -1,0 +1,53 @@
+/*
+  Write your own styles here.
+
+  We've included some classes to get you going
+*/
+
+body {
+  background-color: white;
+}
+
+.sv-blog-nav {
+  background-color: white;
+}
+
+.sv-body-blog-home .sv-blog-nav {
+  background-color: transparent;
+  border-bottom-color: transparent;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.sv-body-blog-home .sv-blog-nav.show-title {
+  background-color: white;
+  border-bottom-color: black;
+}
+
+.sv-body-blog-home .sv-blog-nav.show-title .sv-blog-nav-title {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sv-body-blog-home .sv-blog-nav-title {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease-in-out;
+}
+
+
+/*
+  Mobile First!
+*/
+
+.sv-blog-articles-article {
+  padding-bottom: 60px;
+}
+
+/*
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+  .sv-blog-articles-article {
+    padding-bottom: 120px;
+  }
+}

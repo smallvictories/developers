@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ content.title }}</title>
+    <meta name="description" content="{{ content.description }}">
+    {{ includes.head }}
+  </head>
+  <body>
+    <div>
+      <img src="{{ image }}" alt="{{ image.alt }}">
+
+      <h2>Images</h2>
+      <div>
+        {% for image in images %}
+          <img src="{{ image.url }}" alt="{{ image.name }}">
+        {% endfor %}
+      </div>
+
+      <h2>Links</h2>
+      <div>
+        {% for link in links %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    {{ incudes.foot }}
+  </body>
+</html>
