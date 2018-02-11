@@ -2,11 +2,15 @@
 
 There are three main ways to customize a Small Victories website.
 
-## 1. Customizing a default theme
+## 1. Customizing a Default theme
+Default themes are the standard themes built into Small Victories. For more info on the default themes, go the Themes page.
 
-## 2. Building your own theme
+## 2. Using a Custom theme
+Custom themes are themes built by the SV community. By following the instructions included in the `README`, you can use the theme in your own SV sites. You can also add your own further modifications to a Custom theme.
 
-## 3. Hosting your own code
+## 3. Building your own theme
+
+## 4. Hosting your own code
 
 ```
 .
