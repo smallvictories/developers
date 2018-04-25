@@ -8,10 +8,11 @@ If you’re looking for help with basic Small Victories stuff like setting up a 
 
 There are three main ways to build custom Small Victories websites.
 
-1. [Customize a Default theme]()
-2. [Use a Custom theme]()
-3. [Build your own theme]()
-4. [Host your own code]()
+1. [Customizing a Default template using Drop-Ins](#customizing-a-default-template-using-drop-ins)
+2. [Customizing a Default template with your own code](#customizing-a-default-template-with-your-own-code)
+3. [Using a Custom theme](#using-a-custom-theme)
+4. [Building your own theme](#building-your-own-theme)
+4. [Hosting your own code](#hosting-your-own-code)
 
 ```
 .
