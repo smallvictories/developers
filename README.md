@@ -23,16 +23,14 @@ There are three main ways to build custom Small Victories websites.
 
 ## Concepts
 
-### Lexicon
+### Terminology
 
-*Site* – A site is equivalent to a top-level folder in your SV folder, or a single URL. A site can be a single page, in which case it’s kind of like a template, or it can include multiple pages made up of different subfolders that each use their own template.
-
-*Folder (Site)* – Each folder in your Small Victories folder is equivalent to a 'website', meaning it has its own URL. For example:
+*Folder (Site)* – Each folder in your Small Victories folder is equivalent to a 'website', meaning it has its own URL. A site can be a single page, in which case it’s kind of like a template, or it can include multiple pages made up of different subfolders that each use their own template. For example:
 ```
 .
 ├── Dropbox
 │   ├── Small Victories
-│   │   └── folder                  # this is a SV website with its own URL
+│   │   └── Folder (Site)                  # this is a SV website with its own URL
 .   .
 ```
 *Sub-Folder (Sub-Page)* – Each folder can have any number of sub-folders. Each folder has an equivalent URL path
@@ -48,6 +46,19 @@ There are three main ways to build custom Small Victories websites.
 *Template* – A template is the layout you’ve set in your `_sv_settings.txt` file. For a single-page site, Template and Site are basically the same thing for a single-page Site. In a multi-page site, you can have a subfolder/subpage that uses a different template than its parent Site or sibling Sub-Page(s).
 
 ### Multi-page sites
+Multi-page websites are as easy to create as adding a Sub-Folder to your theme. A Sub-Folder needs its own `_sv_settings.txt` file with at minimum:
+
+`title: `
+`theme: `
+
+A Sub-Page can use any theme. It can also have its own `_sv_custom.css` and `_sv_custom.js` files. If a Sub-Page has custom CSS or JS files, it will not inherit any scripts or styles from parent folders.
+
+
+### Ignoring files
+Folders and files prefixed with an underscore will be ignored by SV. They’ll exist in your Dropbox as normal and you can access their contents with normal filepaths, but they won’t be rendered in your site by SV.
+
+`_example.html`
+`/_example`
 
 ----
 
@@ -73,8 +84,11 @@ We’ve included two sets of files for you to reference:
 ### `/default-files`
 This is exactly how a new SV site appears in your Dropbox when it’s created, including default files. As with a real SV site, this doesn’t include the base HTML, CSS, or JS for the template. Use this when: you want to run a site locally and customize it using CSS and JS.
 
-1. Download the template you want to start with
+1. Create a new SV site
 2. Follow the steps for running an SV site locally
+3. Write styles and scripts in `_sv_custom.css` and `_sv_custom.js`, respectively
+4. Refresh your browser running the site locally to see your changes
+5. After your folder syncs, you’ll see the changes on your live site
 
 ### `/source-files`
 This is the source code – including HTML/CSS/JS – for a template. Use this when: you want to reference the page structure, specific class names, etc. This is just for reference purposes, since real SV sites don’t give direct access to the source HTML/CSS/JS.
@@ -126,12 +140,20 @@ Custom themes are themes built by the SV community. By following the instruction
 
 ## Building your own theme
 
-To build your own themes, you’ll need some basic understanding of HTML/CSS/JS.
+To build your own themes, you’ll need some basic understanding of HTML/CSS/JS. SV uses the [Liquid templating language](http://shopify.github.io/liquid/), which lets you do stuff like include files, loop through folders, etc.
 
-#### Workflow
+### Workflow
+1. Create a new SV Site using the HTML template
+2. Follow the steps for running an SV site locally
+3. Write your code how you would normally. You can use Liquid for partials, displaying content, etc.
+4. See your changes locally
+5. Let your files sync via Dropbox to see them on your live site
 
+### Getting Started
+When you create a new Site using the HTML template, you’ll see a basic demo site. This covers the basic concepts as a starting point.
 
-####
+### Next steps
+Check out our case study on building Le Fleuriste using the HTML template.
 
 ----
 
