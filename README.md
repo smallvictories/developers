@@ -15,34 +15,10 @@ There are three main ways to build custom Small Victories websites.
 
 ```
 .
-├── themes-default-styled          # default SV themes with custom CSS/JS 
-├── themes-default                 # default SV themes
-│   ├── default-files              # generated files when creating a new SV site
-│      ├── blank
-│      ├── blog
-│      ├── campaign
-│      ├── document
-│      ├── ecommerce
-│      ├── feed
-│      ├── homepage
-│      ├── html
-│      ├── presentation
-│      ├── slideshow
-│   └── source-files                # compiled theme HTML when exporting an SV site
-│      ├── blank
-│      ├── blog
-│      ├── campaign
-│      ├── document
-│      ├── ecommerce
-│      ├── feed
-│      ├── homepage
-│      ├── html
-│      ├── presentation
-│      ├── slideshow
-├── snippets                        # code snippets
-│   ├── example-filtering-feed  
-│   └── example-filtering-slideshow
-└── themes-custom                   # custom themes
+├── drop-ins                       # code snippets
+├── themes-default                 # default SV templates
+├── themes-custom                  # custom sites based on default templates
+└── build-your-own                 # building a theme from scratch
 ```
 
 ----
@@ -112,4 +88,3 @@ Custom themes are themes built by the SV community. By following the instruction
 ----
 
 ## Hosting your own code
-
