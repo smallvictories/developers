@@ -25,9 +25,9 @@ There are three main ways to build custom Small Victories websites.
 
 ### Lexicon
 
-Site – A site is equivalent to a top-level folder in your SV folder, or a single URL. A site can be a single page, in which case it’s kind of like a template, or it can include multiple pages made up of different subfolders that each use their own template.
+*Site* – A site is equivalent to a top-level folder in your SV folder, or a single URL. A site can be a single page, in which case it’s kind of like a template, or it can include multiple pages made up of different subfolders that each use their own template.
 
-Folder (Site) – Each folder in your Small Victories folder is equivalent to a 'website', meaning it has its own URL. For example:
+*Folder (Site)* – Each folder in your Small Victories folder is equivalent to a 'website', meaning it has its own URL. For example:
 ```
 .
 ├── Dropbox
@@ -35,7 +35,7 @@ Folder (Site) – Each folder in your Small Victories folder is equivalent to a 
 │   │   └── folder                  # this is a SV website with its own URL
 .   .
 ```
-Sub-Folder (Sub-Page) – Each folder can have any number of sub-folders. Each folder has an equivalent URL path
+*Sub-Folder (Sub-Page)* – Each folder can have any number of sub-folders. Each folder has an equivalent URL path
 ```
 .
 ├── Dropbox
@@ -44,7 +44,8 @@ Sub-Folder (Sub-Page) – Each folder can have any number of sub-folders. Each f
 │   │   │   └── Sub-Folder (Sub-page)          # this is a Sub-Page, e.g. smvi.mysite.co/sub-folder
 .   .   .
 ```
-Template – A template is the layout you’ve set in your `_sv_settings.txt` file. For a single-page site, Template and Site are basically the same thing for a single-page Site. In a multi-page site, you can have a subfolder/subpage that uses a different template than its parent Site or sibling Sub-Page(s).
+
+*Template* – A template is the layout you’ve set in your `_sv_settings.txt` file. For a single-page site, Template and Site are basically the same thing for a single-page Site. In a multi-page site, you can have a subfolder/subpage that uses a different template than its parent Site or sibling Sub-Page(s).
 
 ### Multi-page sites
 
