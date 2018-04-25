@@ -8,10 +8,10 @@ If you’re looking for help with basic Small Victories stuff like setting up a 
 
 There are three main ways to build custom Small Victories websites.
 
-1. [Customize a Default theme](#customizing-a-default-theme)
-2. [Use a Custom theme](#using-a-custom-theme)
-3. [Build your own theme](#building-your-own-theme)
-4. [Host your own code](#hosting-your-own-code)
+1. [Customize a Default theme]()
+2. [Use a Custom theme]()
+3. [Build your own theme]()
+4. [Host your own code]()
 
 ```
 .
@@ -21,9 +21,36 @@ There are three main ways to build custom Small Victories websites.
 └── build-your-own                 # building a theme from scratch
 ```
 
+## Concepts
+
+### Lexicon
+
+Site – A site is equivalent to a top-level folder in your SV folder, or a single URL. A site can be a single page, in which case it’s kind of like a template, or it can include multiple pages made up of different subfolders that each use their own template.
+
+Folder (Site) – Each folder in your Small Victories folder is equivalent to a 'website', meaning it has its own URL. For example:
+```
+.
+├── Dropbox
+│   ├── Small Victories
+│   │   └── folder                  # this is a SV website with its own URL
+.   .
+```
+Sub-Folder (Sub-Page) – Each folder can have any number of sub-folders. Each folder has an equivalent URL path
+```
+.
+├── Dropbox
+│   ├── Small Victories
+│   │   └── Folder (Site)                      # this is a SV Site with its own URL, e.g. smvi.mysite.co
+│   │   │   └── Sub-Folder (Sub-page)          # this is a Sub-Page, e.g. smvi.mysite.co/sub-folder
+.   .   .
+```
+Template – A template is the layout you’ve set in your `_sv_settings.txt` file. For a single-page site, Template and Site are basically the same thing for a single-page Site. In a multi-page site, you can have a subfolder/subpage that uses a different template than its parent Site or sibling Sub-Page(s).
+
+### Multi-page sites
+
 ----
 
-## Drop-ins
+## Customizing a Default template using Drop-ins
 
 Drop-ins are code snippets that perform specific functions in a Small Victories website. Each one has a `README` file with instructions on how to use it.
 
@@ -37,19 +64,19 @@ Drop-ins are code snippets that perform specific functions in a Small Victories 
 ```
 ----
 
-## Customizing a Default theme
+## Customizing a Default template with your own code
 Default themes are the standard themes built into Small Victories. You can customize theme however you please, from simple stuff like changing the fonts to completely reconfiguring the layout.
 
 We’ve included two sets of files for you to reference:
+
 ### `/default-files`
-This is exactly how a new SV site appears in your Dropbox when it’s created, including default files. As with a real SV site, this doesn’t include the base HTML, CSS, or JS for the template.
+This is exactly how a new SV site appears in your Dropbox when it’s created, including default files. As with a real SV site, this doesn’t include the base HTML, CSS, or JS for the template. Use this when: you want to run a site locally and customize it using CSS and JS.
 
-Use this when: you want to run a site locally and customize it using CSS and JS.
+1. Download the template you want to start with
+2. Follow the steps for running an SV site locally
 
-## `/source-files`
-This is the source code – including HTML/CSS/JS – for a template.
-
-Use this when: you want to reference the page structure, specific class names, etc.
+### `/source-files`
+This is the source code – including HTML/CSS/JS – for a template. Use this when: you want to reference the page structure, specific class names, etc. This is just for reference purposes, since real SV sites don’t give direct access to the source HTML/CSS/JS.
 
 For more info on individual default themes, go the Themes page.
 
@@ -89,7 +116,7 @@ Custom themes are themes built by the SV community. By following the instruction
 ```
 .
 ├── themes-custom                  # custom themes
-│   ├── djh-photo-theme            # generated files when creating a new SV site
+│   ├── jdh-photo-theme            # generated files when creating a new SV site
 │   └── unstack                    # compiled theme HTML when exporting an SV site
 .
 ```
