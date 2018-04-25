@@ -10,7 +10,7 @@ addOpenGraph({
   ogDescription: 'This is the description',        // A one to two sentence description of your website
   ogType: 'website',                               // The type of website, e.g. article, blog (default set to 'website')
   ogURL: 'http://www.yourwebsiteurl.com',          // The URL for your website (where all your shares will be directed)
-  ogImage: '/path/to/images.jpg'                   // The image you want to be featured in social posts
+  ogImage: '/path/to/images.jpg'                   // The image you want to be featured in social posts. This can be an image you’re already using in your site, or you can make a special image and put it in your site folder
 });
 ```
 
