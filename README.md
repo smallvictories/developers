@@ -15,10 +15,10 @@ There are three main ways to build custom Small Victories websites.
 
 ```
 .
-├── drop-ins                       # code snippets
-├── themes-default                 # default SV templates
-├── themes-custom                  # custom sites based on default templates
-└── build-your-own                 # building a theme from scratch
+├── 01-drop-inx                      # code snippets
+├── 02-default-templates             # Default SV templates
+├── 03-custom-templates              # custom sites based on Default templates
+└── 04-build-your-own                # build a theme from scratch
 ```
 
 ## Concepts
@@ -30,7 +30,7 @@ There are three main ways to build custom Small Victories websites.
 .
 ├── Dropbox
 │   ├── Small Victories
-│   │   └── Folder (Site)                  # this is a SV website with its own URL
+│   │   └── Folder (Site)                 # this is a SV website with its own URL
 .   .
 ```
 *Sub-Folder (Sub-Page)* – Each folder can have any number of sub-folders. Each folder has an equivalent URL path
@@ -38,8 +38,8 @@ There are three main ways to build custom Small Victories websites.
 .
 ├── Dropbox
 │   ├── Small Victories
-│   │   └── Folder (Site)                      # this is a SV Site with its own URL, e.g. smvi.mysite.co
-│   │   │   └── Sub-Folder (Sub-page)          # this is a Sub-Page, e.g. smvi.mysite.co/sub-folder
+│   │   └── Folder (Site)                 # this is a SV Site with its own URL, e.g. smvi.mysite.co
+│   │   │   └── Sub-Folder (Sub-page)     # this is a Sub-Page, e.g. smvi.mysite.co/sub-folder
 .   .   .
 ```
 
@@ -49,6 +49,7 @@ There are three main ways to build custom Small Victories websites.
 Multi-page websites are as easy to create as adding a Sub-Folder to your theme. A Sub-Folder needs its own `_sv_settings.txt` file with at minimum:
 
 `title: `
+
 `theme: `
 
 A Sub-Page can use any theme. It can also have its own `_sv_custom.css` and `_sv_custom.js` files. If a Sub-Page has custom CSS or JS files, it will not inherit any scripts or styles from parent folders.
@@ -58,13 +59,14 @@ A Sub-Page can use any theme. It can also have its own `_sv_custom.css` and `_sv
 Folders and files prefixed with an underscore will be ignored by SV. They’ll exist in your Dropbox as normal and you can access their contents with normal filepaths, but they won’t be rendered in your site by SV.
 
 `_example.html`
+
 `/_example`
 
 ----
 
-## Customizing a Default template using Drop-ins
+## Customizing a Default template using Small Victory *Drop-Ins*
 
-Drop-ins are code snippets that perform specific functions in a Small Victories website. Each one has a `README` file with instructions on how to use it.
+*Drop-ins* are code snippets that perform specific functions in a Small Victories website. Each one has a `README` file with instructions on how to use it. You can use them with Default templates right out of the box or use them as a starting points for your own customization.
 
 ```
 .
@@ -81,7 +83,7 @@ Default themes are the standard themes built into Small Victories. You can custo
 
 We’ve included two sets of files for you to reference:
 
-### `/default-files`
+#### `/default-files`
 This is exactly how a new SV site appears in your Dropbox when it’s created, including default files. As with a real SV site, this doesn’t include the base HTML, CSS, or JS for the template. Use this when: you want to run a site locally and customize it using CSS and JS.
 
 1. Create a new SV site
@@ -90,7 +92,7 @@ This is exactly how a new SV site appears in your Dropbox when it’s created, i
 4. Refresh your browser running the site locally to see your changes
 5. After your folder syncs, you’ll see the changes on your live site
 
-### `/source-files`
+#### `/source-files`
 This is the source code – including HTML/CSS/JS – for a template. Use this when: you want to reference the page structure, specific class names, etc. This is just for reference purposes, since real SV sites don’t give direct access to the source HTML/CSS/JS.
 
 For more info on individual default themes, go the Themes page.
