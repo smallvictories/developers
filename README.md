@@ -8,10 +8,10 @@ If you’re looking for help with basic Small Victories stuff like setting up a 
 
 There are three main ways to build custom Small Victories websites.
 
-1. [Custome a Default theme]()
-2. [Use a Custom theme]()
-3. [Build your own theme]()
-4. [Host your own code]()
+1. [Customize a Default theme](#customizing-a-default-theme)
+2. [Use a Custom theme](#using-a-custom-theme)
+3. [Build your own theme](#building-your-own-theme)
+4. [Host your own code](#hosting-your-own-code)
 
 ```
 .
@@ -45,16 +45,65 @@ There are three main ways to build custom Small Victories websites.
 └── themes-custom                   # custom themes
 ```
 
+----
 
+## Drop-ins
+
+Drop-ins are code snippets that perform specific functions in a Small Victories website. Each one has a `README` file with instructions on how to use it.
+
+```
+.
+├── drop-ins
+│   ├── add-opengraph
+│   ├── filters-feed
+│   └── filters-slideshow
+.
+```
 ----
 
 ## Customizing a Default theme
 Default themes are the standard themes built into Small Victories. For more info on the default themes, go the Themes page.
 
+```
+.
+├── themes-default                 # default SV themes
+│   ├── default-files              # generated files when creating a new SV site
+│      ├── blank
+│      ├── blog
+│      ├── campaign
+│      ├── document
+│      ├── ecommerce
+│      ├── feed
+│      ├── homepage
+│      ├── html
+│      ├── presentation
+│      └── slideshow
+│   └── source-files                # compiled theme HTML when exporting an SV site
+│      ├── blank
+│      ├── blog
+│      ├── campaign
+│      ├── document
+│      ├── ecommerce
+│      ├── feed
+│      ├── homepage
+│      ├── html
+│      ├── presentation
+│      └── slideshow
+.
+```
+
 ----
 
 ## Using a Custom theme
 Custom themes are themes built by the SV community. By following the instructions included in the `README`, you can use the theme in your own SV sites. You can also add your own further modifications to a Custom theme.
+
+```
+.
+├── themes-custom                  # custom themes
+│   ├── djh-photo-theme            # generated files when creating a new SV site
+│   └── unstack                    # compiled theme HTML when exporting an SV site
+.
+```
 
 ----
 
