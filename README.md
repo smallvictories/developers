@@ -38,9 +38,18 @@ Drop-ins are code snippets that perform specific functions in a Small Victories 
 ----
 
 ## Customizing a Default theme
-Default themes are the standard themes built into Small Victories. You can customize theme however you please, from something simple like changing the fonts, or completely reconfigure the layout.
+Default themes are the standard themes built into Small Victories. You can customize theme however you please, from simple stuff like changing the fonts to completely reconfiguring the layout.
 
+We’ve included two sets of files for you to reference:
+### `/default-files`
+This is exactly how a new SV site appears in your Dropbox when it’s created, including default files. As with a real SV site, this doesn’t include the base HTML, CSS, or JS for the template.
 
+Use this when: you want to run a site locally and customize it using CSS and JS.
+
+## `/source-files`
+This is the source code – including HTML/CSS/JS – for a template.
+
+Use this when: you want to reference the page structure, specific class names, etc.
 
 For more info on individual default themes, go the Themes page.
 
@@ -88,6 +97,13 @@ Custom themes are themes built by the SV community. By following the instruction
 ----
 
 ## Building your own theme
+
+To build your own themes, you’ll need some basic understanding of HTML/CSS/JS.
+
+#### Workflow
+
+
+####
 
 ----
 
