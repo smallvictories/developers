@@ -1,4 +1,0 @@
-title: _template
-description: 
-theme: feed
-badge: hide

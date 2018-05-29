@@ -4,6 +4,10 @@ These are resources for customizing the functionality and appearance of a Small 
 
 If you’re looking for help with basic Small Victories stuff like setting up a custom URL, ordering and naming files, adding captions to images, or using individual themes, check out the Small Victories [Getting Started Guide](http://docs.smallvictori.es).
 
+###### Branches
+`master` – production
+`development` – in progress
+
 ## Introduction
 
 There are three main ways to build custom Small Victories websites.

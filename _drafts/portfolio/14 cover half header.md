@@ -1,1 +1,0 @@
-Section header half
