@@ -133,13 +133,14 @@ For more info on individual default themes, go the Themes page.
 ----
 
 ## Using a Custom theme
-Custom themes are themes built by the SV community. By following the instructions included in the `README`, you can use these themes for your own SV sites. You can also add your own further modifications to a Custom theme.
+Custom themes are themes built by the SV community. By following the instructions included in the `README` in each theme folder, you can use these themes for your own SV sites. You can also add your own further modifications to a Custom theme.
 
 ```
 .
 ├── themes-custom                  # custom themes
-│   ├── jdh-photo-theme            # generated files when creating a new SV site
-│   └── unstack                    # compiled theme HTML when exporting an SV site
+│   ├── jdh-photo-theme            # create a salon-style layout for images
+│   └── unstack                    # slideshow using scrolling and unsticking to reveal new images (based on smallvictori.es)
+│   └── portfolio                  # a multi-page portfolio
 .
 ```
 
