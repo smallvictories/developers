@@ -1,0 +1,147 @@
+/* Small Victories portfolio theme v1.0 */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.clear {
+  clear: both;
+}
+
+.sv-feed {
+  padding: 0 10px 20px;
+}
+
+.sv-feed-inner {
+  padding: 0;
+}
+
+.sv-feed-control {
+  left: 15px;
+  right: auto;
+  width: auto;
+  display: none;
+}
+
+.sv-feed-meta {
+  display: none;
+}
+
+.sv-feed-info {
+  background: transparent;
+  padding: 40px 20px;
+  position: relative;
+  height: auto;
+  z-index: 1;
+}
+
+.sv-feed-item {
+  padding: 20px 10px 0;
+  position: relative;
+  width: 100%;
+}
+
+.sv-feed-item img {
+  width: 100%;
+  max-width: none;
+}
+
+.sv-feed-item.cover {
+  padding: 20px 0 0;
+}
+
+.sv-feed-item.cover > div {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.sv-feed-item.cover video {
+  width: 100%;
+}
+
+.sv-feed-item.thumb {
+  width: 50%;
+}
+
+/* type */
+.sv-feed p, .sv-feed h1, .sv-feed h2, .sv-feed h3, .sv-feed h4, .sv-feed h5, .sv-feed h6, .sv-feed li, .sv-feed span, .sv-feed a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.sv-feed-item-markdown {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sv-feed p {
+  max-width: 500px;
+}
+
+.sv-feed-item-photo-caption p {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.header p {
+  max-width: 100%;
+  font-size: 70px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.half.header p {
+  padding-right: 40px;
+  margin-top: 0;
+}
+
+.section p {
+  max-width: 600px;
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.info {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sv-feed-inner {
+    padding: 0;
+  }
+
+  .sv-feed-info {
+    padding: 20px 40px 20px 100px;
+  }
+
+  .sv-feed-item.half {
+    width: 50%;
+  }
+
+  .sv-feed-item.third {
+    width: 33.3%;
+  }
+
+  .sv-feed-item.thumb {
+    width: 16.666666667%;
+  }
+
+  #sv-feed-info {
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .sv-feed-info {
+    padding: 100px 0;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+  }
+}
