@@ -36,12 +36,18 @@ That will give the image container the class of `class="half"`. Then, in your `_
 You probably also want to have control over the order your content appears in, so you could do something like:
 
 `01a-half.jpg`
+
 `01b-half.jpg`
 
 You can also add anything else you want to that filename, as you would normally:
 
-`01a-half-disobedient-playtpus.jpg`
-`01b-half-enthusiastic-walrus.jpg`
+`01a-half-disobedient_playtpus.jpg`
+
+`01b-half-enthusiastic_walrus.jpg`
+
+Hyphens (`-`) and spaces in file names work the same way. To keep words together, use an underscore (`_`):
+
+`01a half fantastic_sloth.jpg` will give you the classes `01a`, `half`, and `fantastic_sloth`.
 
 ### File & Class names
 We’ve set up some classes for you to achieve the Portfolio layout like in the [demo](http://sv-custom-themes.smvi.co/portfolio). All content is 100% wide on mobile devices, but on larger screens you can control the amount of space your content occupies:
