@@ -28,9 +28,7 @@ SV uses the names of yours files to add styles to them (you can read more about 
 That will give the image container the class of `class="half"`. Then, in your `_sv_custom.css` file, you can add your own styles for that class:
 
 ```
-.half {
-  ...
-}
+.half {...}
 ```
 
 You probably also want to have control over the order your content appears in, so you could do something like:
