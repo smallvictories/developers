@@ -6,8 +6,9 @@ Demo: http://sv-custom-themes.smvi.co/portfolio
 
 1. Create a new SV site using the Feed theme
 2. Add the `_sv_custom.css` and `_sv_custom.js` files to your new site folder
-3. Add content
-4. Name your files account
+3. Add text and images
+4. Name your files accordingly (see below)
+5. Customize, share, etc.!
 
 ## Ordering images
 If you want finer control over your layout, we recommend setting the sort order for your content to alphabetical instead of chronological:
