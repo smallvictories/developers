@@ -1,0 +1,3 @@
+# Centered image
+
+## You can center an image by adding `center` to its filename.

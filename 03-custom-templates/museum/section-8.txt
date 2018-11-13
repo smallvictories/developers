@@ -1,0 +1,3 @@
+# Text-only posts
+
+## In the above section, you can see it’s possible to have a block that is only an image (with no caption). Similarly, you could have a block that is only text. The layout will be the same as captions. If you’d like to change the layout of the text in these instances you can change that in the CSS file in your site folder.

@@ -1,0 +1,3 @@
+# Default layout
+
+## Any image you put in your site folder will become a new section (like this one). If you add a text file with the same name as the image, it will create a caption for your image. There is also a stylesheet in your site folder that you can use to customize your theme. Check <a href="https://docs.smallvictori.es/">the Small Victories docs</a> for more information.
