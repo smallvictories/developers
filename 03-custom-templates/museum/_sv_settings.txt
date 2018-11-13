@@ -1,4 +1,4 @@
 title: Museum Theme
-description: This is a demo of the Museum Theme v1.0. It could have a variety of uses, from a portfolio homepage to collected research to photo essay. (<a href="https://museum.jacobheftmann.com/" target="_blank">In-use example</a>.)<br>Images by <a href="http://www.jacobheftmann.com/photo" target="_blank">Jacob Heftmann</a>.
+description: This is a demo of the Museum Theme v1.0. It could have a variety of uses, from a portfolio homepage to collected research to photo essay. (<a href="https://github.com/smallvictories/developers" target="_blank">Code and documentation</a>; <a href="https://museum.jacobheftmann.com/" target="_blank">In-use example</a>.)<br>Images by <a href="http://www.jacobheftmann.com/photo" target="_blank">Jacob Heftmann</a>.
 theme: feed
 badge: hide

@@ -1,0 +1,3 @@
+# Adding links to sections
+
+## You may have noticed that your cursor changed when you hovered over this section. You can set an entire section to be a link – maybe you want create a subpage for this project – by adding a bookmark file to your site folder and giving it the same filename as the image/caption files.
