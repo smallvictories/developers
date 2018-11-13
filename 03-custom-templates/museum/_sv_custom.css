@@ -11,7 +11,7 @@
 
 h1, h2, h3, h4, h5, h6, p, a {
   color: white;
-  font-size: 25px !important;
+  font-size: 20px !important;
   line-height: 1.35 !important;
   letter-spacing: .01em !important;
   font-weight: normal;
@@ -28,7 +28,6 @@ a:hover, .sv-feed p a:hover {
 }
 
 br {
-  /* line-height: 2.2; */
   content: "";
   display: block;
   margin: 25px 0;
@@ -97,7 +96,7 @@ body {
 
 .sv-feed-item {
   padding: 20px 0 0;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   border-top: 1px solid white;
 }
 
@@ -125,6 +124,10 @@ a, a:hover {
   Desktop (> 768px)
 */
 @media screen and (min-width: 768px){
+
+  h1, h2, h3, h4, h5, h6, p, a {
+    font-size: 25px !important;
+  }
 
   .sv-feed-info-inner,
   .sv-feed-item-photo,
