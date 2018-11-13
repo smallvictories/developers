@@ -1,16 +1,21 @@
 /*
+// Small Victories
+// Museum Theme v1.0
+*/
+
+/*
 // customize
 */
 .sv-theme {
-  background-color: black;
+  background-color: white;
 }
 
 .sv-feed-item {
-  border-top: 1px solid white;
+  border-top: 1px solid black;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-  color: white;
+  color: black;
   font-size: 20px !important;
   line-height: 1.35 !important;
   letter-spacing: .01em !important;
@@ -20,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .sv-feed-item-photo-caption a, p a, .sv-feed p a {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 a:hover, .sv-feed p a:hover {
@@ -44,7 +49,7 @@ br {
 */
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: white;
+  color: black;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -97,7 +102,6 @@ body {
 .sv-feed-item {
   padding: 20px 0 0;
   margin-bottom: 50px;
-  border-top: 1px solid white;
 }
 
 .sv-feed-item-photo img {
