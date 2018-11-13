@@ -1,4 +1,4 @@
-# README
+# Salon Theme
 
 1. Create a new Small Victory site using the Feed theme.
 2. Copy the `_sv_custom.scss` (delete `_sv_custom.css`) and `sv_custom.js` (you can overwrite the existing one) into the site folder. (You don’t need to copy the example images, caption, or bookmark files – they’re just for example.)
