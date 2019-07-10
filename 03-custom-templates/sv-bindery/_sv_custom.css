@@ -1,0 +1,14 @@
+* {
+  font-weight: normal;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  line-height: 1.2;
+  font-family: Times;
+}
+
+h1.cover {
+  text-align: center;
+}
