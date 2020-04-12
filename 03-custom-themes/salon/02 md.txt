@@ -1,0 +1,1 @@
+This is a sample caption with <a>a link</a>.

@@ -1,0 +1,4 @@
+title: Custom Theme — Salon
+theme: feed
+badge: show
+description: This is a demo of the custom Salon theme for Small Victories, based on Feed. It’s great for sharing photos, creating an image archive, or even as a portfolio. You can add captions and turn images into links, too. For more information, check out <a href="https://github.com/smallvictories/developers/tree/master/03-custom-templates/salon">the docs</a>.<br><br>These photos were taken in Morocco in 2019 by <a href="http://www.jacobheftmann.com">Jacob Heftmann</a>.<br><br>v1.0
