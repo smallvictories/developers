@@ -1,0 +1,164 @@
+/* reset default SV styles, do not edit */
+.sv-feed-inner {padding:0;} .sv-feed-item {padding:0;} .sv-feed-item-photo-caption p, .sv-feed-item-photo-caption p a, .sv-feed p, .sv-feed p a, h1, h2, h3, h4, h5, h6, p, a, li {font-weight:normal;letter-spacing:0;margin:0;border-bottom:0;} .sv-feed-control {position:relative;top:0;left:auto;right:auto;height:auto;width:auto;} .sv-control:hover {opacity:1.0;} .sv-feed-info-title {display:none;} .sv-feed-info {background-color:transparent;position:absolute;height:auto;min-height:100vh;} .sv-control {text-decoration: inherit !important;}
+
+/* default classes, no need to edit here iether */
+* {margin: 0; box-sizing: border-box;}
+img {width: 100%;}
+.xs {width: var(--xs);}
+.sm {width: var(--sm);}
+.md {width: var(--md);}
+.lg {width: var(--lg);}
+.xl {width: var(--xl);}
+
+
+/* ----------- v1.0 ---------- */
+/* variables */
+:root {
+  /*  image sizing  */
+  /*  these are the mobile sizes  */
+  --xs: 100%;
+  --sm: 50%;
+  --md: 75%;
+  --lg: 90%;
+  --xl: 100%;
+
+  /*  other settings  */
+  --background-color: white;
+  --text-color: black;
+  --layout-padding: 20px;
+  --blur-amount: 20px;
+  --animation-speed: .25s;
+}
+
+/* small screens like tablets */
+@media screen and (min-width: 768px) {
+  :root {
+    --xs: 33%;
+    --sm: 50%;
+    --md: 50%;
+    --lg: 75%;
+    --xl: 100%;
+  }
+}
+
+/* medium screens like laptops */
+@media screen and (min-width: 1200px) {
+  :root {
+    --xs: 25%;
+    --sm: 33%;
+    --md: 50%;
+    --lg: 75%;
+    --xl: 100%;
+  }
+}
+
+/* large screens */
+@media screen and (min-width: 1600) {
+  :root {
+    --xs: 25%;
+    --sm: 33%;
+    --md: 50%;
+    --lg: 75%;
+    --xl: 100%;
+  }
+}
+
+/* edit these values to customize or write your own styles */
+/* theme styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.sv-feed-title,
+.sv-control {
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0;
+  font-weight: normal;
+  position: fixed;
+  z-index: 100;
+  top: var(--layout-padding);
+}
+
+.sv-feed-title {
+  left: var(--layout-padding);
+}
+
+.sv-control {
+  right: var(--layout-padding);
+}
+
+.sv-control:hover {
+  text-decoration: underline;
+}
+
+.sv-feed-info-inner {
+  width: 100%;
+  max-width: none;
+  padding: 100px var(--layout-padding) var(--layout-padding);
+}
+
+/* info layer type style */
+p,
+.sv-feed p,
+.sv-feed-description {
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: -.02rem;
+  font-weight: 400;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+/* caption type style */
+.sv-feed-item-photo-caption p {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-right: 15%;
+}
+
+/* blur background when info layer is open */
+body.no-scroll .sv-feed-item {
+  filter: blur(var(--blur-amount));
+  opacity: .5;
+  transition: all var(--animation-speed) ease-in-out;
+}
+
+/* image loading transition */
+.sv-feed-item-photo img {
+    background-color: transparent;
+    filter: blur(var(--blur-amount));
+}
+
+.sv-feed-item-photo img.lazy-loaded {
+    filter: blur(0);
+    transition: all var(--animation-speed) ease-in-out;
+}
+
+/* text blocks */
+.sv-feed-item-markdown, .sv-feed-item-text {
+  width: 400px;
+}
+
+.sv-feed-item-markdown h1, .sv-feed-item-text h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+
+.sv-feed-item-markdown p, .sv-feed-item-text p {
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+/* medium screens (like tablets) and larger */
+@media only screen and (min-width: 768px) {
+  .sv-feed-description {
+    padding-right: 25vw;
+  }
+}

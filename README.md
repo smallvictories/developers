@@ -6,6 +6,7 @@ If you’re looking for help with basic Small Victories stuff like setting up a 
 
 ###### Branches
 `master` – production
+
 `development` – in progress
 
 ## Introduction
@@ -21,8 +22,8 @@ There are three main ways to build custom Small Victories websites.
 ```
 .
 ├── 01-drop-inx                      # code snippets
-├── 02-default-templates             # Default SV templates
-├── 03-custom-templates              # custom sites based on Default templates
+├── 02-default-themes             # Default SV templates
+├── 03-custom-themes              # custom sites based on Default templates
 └── 04-build-your-own                # build a theme from scratch
 ```
 
